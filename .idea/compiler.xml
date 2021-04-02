@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auction-common-util" />
+        <module name="auction-order-web" />
+        <module name="auction-survey-service" />
+        <module name="auction-api" />
+        <module name="auction-payment-service" />
+        <module name="springboot-task-demo" />
+        <module name="springboot-jsp-demo" />
+        <module name="auction-manage-service" />
+        <module name="auction-order-service" />
+        <module name="springcloud-eurekaserver-demo" />
+        <module name="auction-item-web" />
+        <module name="springcloud-eurekaconsumer-demo" />
+        <module name="auction-service-util" />
+        <module name="auction-manage-web" />
+        <module name="auction-payment-web" />
+        <module name="springcloud-eurekaprovider-demo" />
+        <module name="auction-payment-util" />
+        <module name="auction-product-web" />
+        <module name="auction-passport-web" />
+        <module name="auction-search-web" />
+        <module name="auction-member-service" />
+        <module name="auction-search-service" />
+        <module name="auction-survey-web" />
+        <module name="auction-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auction-api" target="1.8" />
+      <module name="auction-common-util" target="1.8" />
+      <module name="auction-item-web" target="1.8" />
+      <module name="auction-manage-service" target="1.8" />
+      <module name="auction-manage-web" target="1.8" />
+      <module name="auction-member-service" target="1.8" />
+      <module name="auction-order-service" target="1.8" />
+      <module name="auction-order-web" target="1.8" />
+      <module name="auction-parent" target="1.8" />
+      <module name="auction-passport-web" target="1.8" />
+      <module name="auction-payment-service" target="1.8" />
+      <module name="auction-payment-util" target="1.8" />
+      <module name="auction-payment-web" target="1.8" />
+      <module name="auction-product-web" target="1.8" />
+      <module name="auction-search-service" target="1.8" />
+      <module name="auction-search-web" target="1.8" />
+      <module name="auction-service-util" target="1.8" />
+      <module name="auction-survey-service" target="1.8" />
+      <module name="auction-survey-web" target="1.8" />
+      <module name="auction-web-util" target="1.8" />
+      <module name="springboot-jsp-demo" target="1.8" />
+      <module name="springboot-task-demo" target="1.8" />
+      <module name="springcloud-eurekaconsumer-demo" target="1.8" />
+      <module name="springcloud-eurekaprovider-demo" target="1.8" />
+      <module name="springcloud-eurekaserver-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auction-api" options="-parameters" />
+      <module name="auction-common-util" options="-parameters" />
+      <module name="auction-item-web" options="-parameters" />
+      <module name="auction-manage-service" options="-parameters" />
+      <module name="auction-manage-web" options="-parameters" />
+      <module name="auction-member-service" options="-parameters" />
+      <module name="auction-order-service" options="-parameters" />
+      <module name="auction-order-web" options="-parameters" />
+      <module name="auction-passport-web" options="-parameters" />
+      <module name="auction-payment-service" options="-parameters" />
+      <module name="auction-payment-util" options="-parameters" />
+      <module name="auction-payment-web" options="-parameters" />
+      <module name="auction-product-web" options="-parameters" />
+      <module name="auction-search-service" options="-parameters" />
+      <module name="auction-search-web" options="-parameters" />
+      <module name="auction-service-util" options="-parameters" />
+      <module name="auction-survey-service" options="-parameters" />
+      <module name="auction-survey-web" options="-parameters" />
+      <module name="auction-web-util" options="-parameters" />
+      <module name="springboot-jsp-demo" options="-parameters" />
+      <module name="springboot-task-demo" options="-parameters" />
+      <module name="springcloud-eurekaconsumer-demo" options="-parameters" />
+      <module name="springcloud-eurekaprovider-demo" options="-parameters" />
+      <module name="springcloud-eurekaserver-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/auction-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-api/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jsp-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-member-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-passport-web/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-payment-web/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-payment-util/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-task-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eurekaserver-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eurekaprovider-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eurekaconsumer-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-survey-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auction-survey-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

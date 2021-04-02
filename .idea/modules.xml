@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/auction.iml" filepath="$PROJECT_DIR$/.idea/auction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-api/auction-api.iml" filepath="$PROJECT_DIR$/auction-api/auction-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-common-util/auction-common-util.iml" filepath="$PROJECT_DIR$/auction-common-util/auction-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-item-web/auction-item-web.iml" filepath="$PROJECT_DIR$/auction-item-web/auction-item-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-manage-service/auction-manage-service.iml" filepath="$PROJECT_DIR$/auction-manage-service/auction-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-manage-web/auction-manage-web.iml" filepath="$PROJECT_DIR$/auction-manage-web/auction-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-member-service/auction-member-service.iml" filepath="$PROJECT_DIR$/auction-member-service/auction-member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-order-service/auction-order-service.iml" filepath="$PROJECT_DIR$/auction-order-service/auction-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-order-web/auction-order-web.iml" filepath="$PROJECT_DIR$/auction-order-web/auction-order-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-parent/auction-parent.iml" filepath="$PROJECT_DIR$/auction-parent/auction-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-passport-web/auction-passport-web.iml" filepath="$PROJECT_DIR$/auction-passport-web/auction-passport-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-payment-service/auction-payment-service.iml" filepath="$PROJECT_DIR$/auction-payment-service/auction-payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-payment-util/auction-payment-util.iml" filepath="$PROJECT_DIR$/auction-payment-util/auction-payment-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-payment-web/auction-payment-web.iml" filepath="$PROJECT_DIR$/auction-payment-web/auction-payment-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-search-service/auction-search-service.iml" filepath="$PROJECT_DIR$/auction-search-service/auction-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-search-web/auction-search-web.iml" filepath="$PROJECT_DIR$/auction-search-web/auction-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-service-util/auction-service-util.iml" filepath="$PROJECT_DIR$/auction-service-util/auction-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-survey-service/auction-survey-service.iml" filepath="$PROJECT_DIR$/auction-survey-service/auction-survey-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-survey-web/auction-survey-web.iml" filepath="$PROJECT_DIR$/auction-survey-web/auction-survey-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-web-util/auction-web-util.iml" filepath="$PROJECT_DIR$/auction-web-util/auction-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jsp-demo/springboot-jsp-demo.iml" filepath="$PROJECT_DIR$/springboot-jsp-demo/springboot-jsp-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-task-demo/springboot-task-demo.iml" filepath="$PROJECT_DIR$/springboot-task-demo/springboot-task-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eurekaconsumer-demo/springcloud-eurekaconsumer-demo.iml" filepath="$PROJECT_DIR$/springcloud-eurekaconsumer-demo/springcloud-eurekaconsumer-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eurekaprovider-demo/springcloud-eurekaprovider-demo.iml" filepath="$PROJECT_DIR$/springcloud-eurekaprovider-demo/springcloud-eurekaprovider-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eurekaserver-demo/springcloud-eurekaserver-demo.iml" filepath="$PROJECT_DIR$/springcloud-eurekaserver-demo/springcloud-eurekaserver-demo.iml" />
+    </modules>
+  </component>
+</project>

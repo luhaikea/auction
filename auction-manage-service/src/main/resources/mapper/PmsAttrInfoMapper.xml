@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lhk.auction.manage.mapper.PmsAttrInfoMapper">
+
+<!-- 如果一个属性的几个属性值没有出现在valueIdStr中则这个属性就不会出现在查询结果中
+     如果一个属性的一个或多个出现在了valueIdStr中则这个属性会出现在查询结果中并且只携带出现在valueIdStr中的属性值-->
+    <select id="selectAttrInfoListByValueId"  resultMap="selectAttrInfoListByValueIdMap">
+        SELECT
+          a.*, a.id as a_id, v.*, v.id as v_id
+        FROM
+            pms_attr_info a,
+            pms_attr_value v
+        WHERE
+            a.id = v.attr_id
+        and
+          v.id in (${valueIdStr})
+    </select>
+
+    <resultMap id="selectAttrInfoListByValueIdMap" type="com.lhk.auction.bean.PmsAttrInfo" autoMapping="true">
+        <result column="a_id" property="id"></result>
+        <collection property="attrValueList" ofType="com.lhk.auction.bean.PmsAttrValue" autoMapping="true">
+            <result column="v_id" property="id"></result>
+        </collection>
+    </resultMap>
+</mapper>

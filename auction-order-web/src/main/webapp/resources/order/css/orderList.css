@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border-box 告诉浏览器去理解你设置的边框和内边距的值是包含在width内的*/
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style: none;
+}
+/*选择鼠标在链接上面时*/
+.header {
+    width: 100%;
+    height: 200px;
+}
+.header-top{
+    height: 30px;
+    background: #E3E4E5;
+}
+.header-top-left{
+    width: 400px;
+    height: 30px;
+    float: left;
+}
+.header-top-left div{
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.header-top-left div a{
+    color: darkgray;
+}
+.header-top-right{
+    width: 400px;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+}
+.header-top-right a{
+    color: darkgray;
+}
+.header-bottom{
+    height: 130px;
+    display: inline-block ;
+}
+.header-bottom-left{
+    width: 400px;
+    height: 130px;
+    float: left;
+}
+.header-bottom-left img{
+    margin-left: 170px;
+    width: 150px;
+    height: 130px;
+    float: left;
+}
+.header-bottom-right{
+    width: 900px;
+    height: 130px;
+    float: right;
+    margin-top: 50px;
+}
+.division1{
+    background-color: red;
+    color: red;
+    width: 100%;
+    height: 2px;
+    margin-top: -1px;
+}
+.header-bottom-right input{
+    height: 40px;
+    width: 500px;
+    border: 2px solid #F30213;
+    margin-left: 100px;
+}
+.header-bottom-right button{
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border: 0;
+    color: white;
+    background: #F30213;
+}
+.header-down{
+    height: 35px;
+    background-color: #ece2e2;
+}
+.header-item{
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+
+.myauction{
+    width:1200px;
+    height:100%;
+    margin-left: 170px;
+    margin-top: -3px;
+}
+.myauction-list{
+    width: 100%;
+}
+.list-title{
+    text-align: center;
+    font-size: large;
+    background-color: #5e5e5e;
+    color: white;
+}

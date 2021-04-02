@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lhk.auction.manage.mapper.BmsRoleMapper">
+
+    <!-- 角色信息模糊分页搜索查询 -->
+    <select id="findList" parameterType="java.util.Map" resultType="com.lhk.auction.bean.BmsRole">
+        select * from bms_role
+        <if test="name != null">
+            where name like '%${name}%'
+        </if>
+        <if test="offset != null and pageSize != null">
+            limit #{offset},#{pageSize}
+        </if>
+    </select>
+    <!-- 角色信息模糊分页搜索查询总记录数 -->
+    <select id="getTotal" parameterType="java.util.Map" resultType="java.lang.Integer">
+        select count(*) from bms_role
+        <if test="name != null">
+            where name like '%${name}%'
+        </if>
+    </select>
+
+
+</mapper>

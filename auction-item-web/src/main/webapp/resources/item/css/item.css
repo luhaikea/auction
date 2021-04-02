@@ -1,0 +1,336 @@
+/*取消链接的下划线*/
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+/*选择鼠标在链接上面时*/
+a:hover{
+    color: red;
+}
+.header {
+    width: 100%;
+    height: 200px;
+}
+.header-top{
+    height: 30px;
+    background: #E3E4E5;
+}
+.header-top-left{
+    width: 400px;
+    height: 30px;
+    float: left;
+}
+.header-top-left div{
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.header-top-left div a{
+    color: darkgray;
+}
+.header-top-right{
+    width: 400px;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+}
+.header-top-right a{
+    color: darkgray;
+}
+.header-bottom{
+    height: 130px;
+    display: inline-block ;
+}
+.header-bottom-left{
+    width: 400px;
+    height: 130px;
+    float: left;
+}
+.header-bottom-left img{
+    margin-left: 170px;
+    width: 150px;
+    height: 130px;
+    float: left;
+}
+.header-bottom-right{
+    width: 900px;
+    height: 130px;
+    float: right;
+    margin-top: 50px;
+}
+.division1{
+    background-color: red;
+    color: red;
+    width: 100%;
+    height: 2px;
+    margin-top: -5px;
+}
+.division2{
+    background-color: red;
+    color: red;
+    width: 100%;
+    height: 4px;
+    margin-top: -5px;
+}
+.header-bottom-right input{
+    height: 40px;
+    width: 500px;
+    border: 2px solid #F30213;
+    margin-left: 100px;
+}
+.header-bottom-right button{
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border: 0;
+    color: white;
+    background: #F30213;
+}
+.header-down{
+    height: 35px;
+    background-color: #ece2e2;
+}
+.header-item{
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+
+.product {
+    width: 100%;
+    margin: 0 auto;
+}
+.product-item {
+    z-index: -999;
+    font-size: 14px;
+    height: 1000px;
+}
+.product-item-img {
+    float: left;
+    width: 450px;
+    margin-left: 170px;
+    margin-top: -1.5px;
+}
+.product-item-img-display {
+    position: relative;
+    z-index: 3;
+}
+.probox {
+    width: 450px;
+    height: 450px;
+}
+
+.probox img {
+    width: 450px;
+    height: 450px;
+    vertical-align: top;
+}
+
+.showbox {
+    display: none;
+    position: absolute;
+    left: 452px;
+    top: 0;
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #FFFFFF;
+}
+
+.showbox img {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+}
+
+.hoverbox {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgba(255, 255, 0, 0.5);
+    height: 300px;
+    width: 300px;
+    cursor: move;
+    z-index: 10;
+}
+.product-item-img-list {
+    margin-bottom: 18px;
+    position: relative;
+    bottom: -20px;
+}
+.product-item-img-list-dis {
+    margin-top: 30px;
+    position: relative;
+    width: 380px;
+    height: 63px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.product-item-img-list .product-item-img-list-dis ul {
+    position: absolute;
+    width: 684px;
+    height: 58px;
+    top: 0px;
+    left: 0px;
+}
+
+.product-item-img-list .product-item-img-list-dis ul li {
+    float: left;
+    margin: 0 8px;
+    padding: 1px;
+    list-style: none;
+}
+
+.product-item-img-list .product-item-img-list-dis ul li img {
+    width: 58px;
+    height: 57px;
+}
+
+.product-item-img-list #left, .product-item-img-list #right {
+    position: absolute;
+    font-family: simsun;
+    bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.product-item-img-list #left {
+    left: 0;
+}
+
+.product-item-img-list #right {
+    right: 0;
+}
+.product-attr{
+    margin-top: 50px;
+}
+.product-item-message{
+    position: absolute;
+    right: 0;
+    width: 737px;
+    float: right;
+    margin-right: 100px;
+}
+.product-name{
+    font: 400 15px Arial, "microsoft yahei";
+    color: black;
+    padding-top: 60px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.product-statusAndtime{
+    height: 32px;
+    line-height: 32px;
+    background: #E4393C;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    zoom: 1;
+}
+.product-status{
+    float: left;
+    color: #F2D934;
+}
+.product-time{
+    float: right;
+}
+.product-price-messge{
+    height: 50px;
+    background: #f3f3f3;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.product-price-messge ul li:first-child {
+    float: left;
+    font-family: simsun;
+    color: #999;
+}
+.product-price-messge ul li:nth-child(2) {
+    float: left;
+    color: #E4393C;
+    font-family: "microsoft yahei";
+}
+.product-btns{
+    margin-top: 50px;
+    padding: 24px 10px 0;
+}
+.product-btns-price{
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+.box-btns-AddSubtract{
+    float: left;
+}
+.box-btns-AddSubtract button{
+    cursor: pointer;
+    width: 17px;
+    height: 23px;
+    outline: none;
+    margin-top: -1px;
+}
+.product-btns-price input {
+    width: 43px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    float: left;
+}
+
+.product-btns-confirm{
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 26px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    color: white;
+    background: #E4393C;
+    cursor: hand
+}
+.product-order{
+    margin-top: 147px;
+}
+.Fixedbian {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 34px;
+}
+
+.Fixedbian ul {
+    width: 34px;
+}
+
+.Fixedbian ul li {
+    width: 45px;
+    height: 35px;
+    background: #7a6e6e;
+    line-height: 34px;
+}
+
+.Fixedbian ul li a {
+    text-decoration: none;
+    color: white;
+}
+#auctionStatus{
+    color: white;
+}

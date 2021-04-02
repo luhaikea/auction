@@ -1,0 +1,148 @@
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+/*选择鼠标在链接上面时*/
+a:hover{
+    color: red;
+}
+.header {
+    width: 100%;
+    height: 200px;
+}
+.header-top{
+    height: 30px;
+    background: #E3E4E5;
+}
+.header-top-left{
+    width: 400px;
+    height: 30px;
+    float: left;
+}
+.header-top-left div{
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.header-top-left div a{
+    color: darkgray;
+}
+.header-top-right{
+    width: 400px;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+}
+.header-top-right a{
+    color: darkgray;
+}
+.header-bottom{
+    height: 130px;
+    display: inline-block ;
+}
+.header-bottom-left{
+    width: 400px;
+    height: 130px;
+    float: left;
+}
+.header-bottom-left img{
+    margin-left: 170px;
+    width: 150px;
+    height: 130px;
+    float: left;
+}
+.header-bottom-right{
+    width: 600px;
+    height: 130px;
+    float: right;
+    margin-left: 500px;
+}
+.header-bottom-right img{
+    width: 100%;
+    height: 100%;
+}
+.division1{
+    background-color: red;
+    color: red;
+    width: 100%;
+    height: 2px;
+    margin-top: -5px;
+}
+.division2{
+    background-color: red;
+    color: red;
+    width: 100%;
+    height: 4px;
+    margin-top: -5px;
+}
+.header-bottom-right input{
+    height: 40px;
+    width: 500px;
+    border: 2px solid #F30213;
+    margin-left: 100px;
+}
+.header-bottom-right button{
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border: 0;
+    color: white;
+    background: #F30213;
+}
+.header-down{
+    height: 35px;
+    background-color: #ece2e2;
+}
+.header-item{
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+.msg-body{
+    background-image: url("../img/frontbg.jpg");
+    background-size: 100% 1000px;
+    width: 100%;
+    height: 1000px;
+    margin-top: -2px;
+    padding: 20px;
+}
+.mssage{
+    position: relative;
+    padding: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: groove;
+    width: 1100px;
+    height: 150px;
+}
+.title{
+    float: left;
+    font-size: medium;
+    font-weight: bold;
+}
+.time{
+    float: left;
+    padding-left: 50px;
+    font-size: medium;
+    font-weight: lighter;
+}
+.content{
+    padding-top: 10px;
+    border-color: white;
+    clear:both;
+    text-indent: 30px;
+}
